@@ -7,7 +7,7 @@ import RenderAttachment from "../../components/shared/RenderAttachment"
 import moment from 'moment';
 import { useFetchData } from '6pp';
 import { server } from '../../constants/config';
-import { useErrors } from '../../hooks/hook';
+import { useErrors } from '../../hooks/Hook';
 
 const colums=[
     {

@@ -6,7 +6,7 @@ import {transformImage} from "../../lib/features"
 import AvatarCard from '../../components/shared/AvatarCard'
 import { useFetchData } from '6pp';
 import { server } from '../../constants/config';
-import { useErrors } from '../../hooks/hook';
+import { useErrors } from '../../hooks/Hook';
 
 
 const colums=[
