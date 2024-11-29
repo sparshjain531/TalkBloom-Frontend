@@ -5,7 +5,7 @@ import { Avatar, Skeleton } from '@mui/material';
 import {transformImage} from "../../lib/features"
 import { useFetchData } from '6pp';
 import { server } from '../../constants/config';
-import { useErrors } from '../../hooks/hook';
+import { useErrors } from '../../hooks/Hook';
 
 
 const colums=[
