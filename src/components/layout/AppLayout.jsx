@@ -2,7 +2,7 @@ import React, { useCallback, useEffect, useRef, useState } from 'react'
 import Header from './Header'
 import Title from '../shared/Title'
 import { Drawer, Grid, Skeleton } from '@mui/material'
-import ChatList from '../specific/Chatlist'
+import ChatList from "../specific/ChatList"
 import { useNavigate, useParams } from 'react-router-dom'
 import Profile from '../specific/Profile'
 import { useMyChatsQuery } from '../../redux/api/api'
