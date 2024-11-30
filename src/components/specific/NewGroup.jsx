@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import {Avatar, Button, Dialog, DialogTitle, ListItem, Skeleton, Stack, TextField, Typography} from "@mui/material"
-import { sampleUsers } from '../../constants/sampleData'
 import UserItem from '../shared/UserItem'
 import {useInputValidation} from "6pp"
 import { useDispatch, useSelector } from 'react-redux'
